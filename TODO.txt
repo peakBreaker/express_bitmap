@@ -1,0 +1,25 @@
+# Trace bitmaps
+
+Models:
+1. Able to upload pictures
+  - UID > ImageID > Original_name
+                  > Thumbnails
+                  > num_SVG
+                  > data.json
+
+2. Processing pictures
+  - Functionality to trace the pictures uploaded
+  - Functionality to make thumbnails of the pictures to give grid view of uploaded pictures
+
+3. Login functionality to bind pictures to users
+
+Control:
+AUTH: User login -> cookie -> user_id
+PAYMENT: USER PAY -> User powers
+Unauthed users and unpaid users are simply blocked by server
+
+Views:
+Pictures > Grid view of all Pictures
+Picture_id > View one picture and json data
+Main > Landing page
+Upload > Upload new picture
