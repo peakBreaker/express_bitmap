@@ -3,7 +3,7 @@ const pictures = require('./cont/pictures.js');
 var app = express();
 
 
-app.use('/static', express.static('static'));
+app.use('/', express.static('public/static/'));
 app.use('/pictures', pictures);
 
 console.log("Running express app on port 3000")

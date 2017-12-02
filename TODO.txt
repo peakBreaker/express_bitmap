@@ -19,7 +19,11 @@ PAYMENT: USER PAY -> User powers
 Unauthed users and unpaid users are simply blocked by server
 
 Views:
-Pictures > Grid view of all Pictures
-Picture_id > View one picture and json data
-Main > Landing page
-Upload > Upload new picture
+- Pictures > Grid view of all Pictures
+- Picture_id > View one picture and json data
+- Main > Landing page
+- Upload > Upload new picture
+
+
+Other:
+- A package json to autoinstall stuff
