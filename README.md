@@ -8,6 +8,7 @@ Instructions on setting up your own devenv
 ### Prereq
 - Nodejs & npm
 - packages: expressjs, multer
+- GraphicsMagick and gm command accessible in node env
 
 ### Instructions
 Begin by git cloning and cd'ing a terminal with npm in its $PATH to this repo
